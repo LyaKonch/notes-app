@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app/app.module.scss';
+@import './editor/editor.module.styles.scss';
+@import './sidebar/sidebar.module.styles.scss';
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+#root{
+   height: 100vh;
+   width:100%;
+   color:#251e1e;
+}
+body{
+   font-size: 16px;
+}
